@@ -1,0 +1,40 @@
+.employees__card {
+  background: linear-gradient(
+    to left top,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.5)
+  );
+  border-radius: 0.5rem;
+  margin: 2rem 0rem;
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
+  justify-content: space-between;
+}
+.employees__filter {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.employees__list {
+  text-align: left;
+  width: 100%;
+}
+
+.employees__list-header {
+  padding: 1rem 0.5%;
+}
+
+.employees__table-row:nth-of-type(odd) {
+  background: linear-gradient(
+    to left top,
+    rgba(230, 227, 227, 0.8),
+    rgba(223, 222, 222, 0.5)
+  );
+}
+
+.employees__table-row td {
+  padding: .6rem 0.5%;
+}
+.employees__table-row:nth-of-type(odd) p {
+  color: #2e64aa;
+}

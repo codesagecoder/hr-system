@@ -1,0 +1,13 @@
+.pagination {
+  display: flex;
+  column-gap: 1.5rem;
+}
+.pagination__btn {
+  border: none;
+  border-bottom: 1px solid #2d71d1;
+  color: #2d71d1;
+  font-weight: 500;
+  font-size: 1.1rem;
+  background-color: transparent;
+  cursor: pointer;
+}

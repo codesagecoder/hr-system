@@ -1,0 +1,9 @@
+{
+  "users": [
+    {
+      "username": "hradmin@test.com",
+      "role": "admin",
+      "password": "TestPass1234"
+    }
+  ]
+}
